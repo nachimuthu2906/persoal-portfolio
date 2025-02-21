@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Nachimuthu Chinnadurai</title>
     <link rel="stylesheet" href="stlyes.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <button class="menu-toggle" >☰</button>
+        <button class="menu-toggle" >  ☰</button>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -31,16 +31,17 @@
         <div class="home-content">
             <h1>Nachimuthu Chinnadurai </h1>
             <h2>Data Analyst</h2>
-            <p>nachimuthu.nac2906@gmail.com</p>
-            <p>+91 63792-68509</p>
+            <p><i class="fa-solid fa-envelope"></i>  nachimuthu.nac2906@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>  +91 63792-68509</p>
             <div class="social-icons">
                 <a href="https://www.linkedin.com/in/nachimuthu-chinnadurai"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/nachimuthu2906"><i class="fa-brands fa-github"></i></a>
+                <a href="https://t.me/nachimuthuchinnadurai"><i class="fa-brands fa-telegram"></i></a>
                 <a href="https://x.com/nachimuthu2906"><i class="fa-brands fa-twitter"></i></a>
                 <a href="https://www.instagram.com/naveen_n.m.n/?hl=fr"><i class="fa-brands fa-instagram"></i></a>
             </div>
             <a href="./Nachimuthu-Chinnadurai.pdf" class="btn-download" target="_blank">
-                <span>View CV</span> &#128196;
+                <span>View CV</span> <i class="fa-solid fa-eye"></i>
             </a>
         </div>
     </section>
@@ -56,7 +57,7 @@
                     life.
                 </p>
                 <a href="./Nachimuthu-Chinnadurai.pdf" class="btn-download" download>
-                    <span>Download CV</span> 
+                    <span>Download CV</span> <i class="fa-solid fa-download"></i>
                 </a>
         </div>
     </section>
@@ -244,32 +245,41 @@
 
     <section class="certificates" id="certificates">
         <h1>Certificates</h1>
-                <div class="slider-container">
-                    <div class="slider">
-                        <img src="./c1.jpg" class="slide active" alt="Slide 1">
-                        <img src="./c2.png" class="slide" alt="Slide 2">
-                        <img src="./c3.png" class="slide" alt="Slide 3">
-                        <img src="./c4.png" class="slide" alt="Slide 4">
-                        <img src="./c5.png" class="slide" alt="Slide 5">
-                        <img src="./c6.png" class="slide" alt="Slide 6">
-                    </div>
+        <div class="certificate-container">
+            <button class="nav prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+            <div class="certificate-box">
+                <div class="slider">
+                    <img src="./c1.jpg" class="slide active" alt="Slide 1">
+                    <img src="./c2.png" class="slide" alt="Slide 2">
+                    <img src="./c3.png" class="slide" alt="Slide 3">
+                    <img src="./c4.png" class="slide" alt="Slide 4">
+                    <img src="./c5.png" class="slide" alt="Slide 5">
+                    <img src="./c6.png" class="slide" alt="Slide 6" id="lastClone">
                 </div>
-                <div class="indicators">
-                    <span class="dot active" data-index="0"></span>
-                    <span class="dot" data-index="1"></span>
-                    <span class="dot" data-index="2"></span>
-                    <span class="dot" data-index="3"></span>
-                    <span class="dot" data-index="4"></span>
-                    <span class="dot" data-index="5"></span>
-                </div>
-                <button class="nav prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
-                <button class="nav next"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
-                <script src="script.js"></script>
+            </div>
+            <button class="nav next"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+        </div>
+        <div class="indicators">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+            <span class="dot" data-index="3"></span>
+            <span class="dot" data-index="4"></span>
+            <span class="dot" data-index="5"></span>
+        </div>
+        <script src="script.js"></script>
     </section>
 
     <!-- Footer Section -->
     <footer>
         <p>&copy; 2025 Nachimuthu Chinnadurai. All rights reserved.</p>
+        <div class="social-iconsfooter">
+            <a href="https://www.linkedin.com/in/nachimuthu-chinnadurai"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/nachimuthu2906"><i class="fa-brands fa-github"></i></a>
+            <a href="https://t.me/nachimuthuchinnadurai"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://x.com/nachimuthu2906"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/naveen_n.m.n/?hl=fr"><i class="fa-brands fa-instagram"></i></a>
+        </div>
     </footer>
     <script src="./toggle.js"></script>
 </body>

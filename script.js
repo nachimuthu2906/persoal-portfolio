@@ -10,6 +10,9 @@ function updateSlider(index) {
         slide.classList.toggle('active', i === index);
         dots[i].classList.toggle('active', i === index);
     });
+
+    const offset = -index * 100;
+    document.querySelector('.slider').style.transform = `translateX(${offset}%)`;
 }
 
 function showNextSlide() {
@@ -33,4 +36,7 @@ nextButton.addEventListener('click', showNextSlide);
 prevButton.addEventListener('click', showPrevSlide);
 
 // Auto-slide every 5 seconds
-setInterval(showNextSlide, 5000);
+setInterval(showNextSlide, 3000);
+
+// Initialize the slider
+updateSlider(currentIndex);
