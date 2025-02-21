@@ -34,7 +34,7 @@ header {
     color: rgb(0, 0, 0);
     font-size: 24px;
     position: sticky;
-    left: 320px;
+    left: 355px;
     cursor: pointer;
 }
 
@@ -476,7 +476,7 @@ footer {
         flex: 1;
         text-align: left;
         padding: 10px;
-        margin-left: 30px;
+        margin-left: 45px;
     }
 
     .home-content h1 {
@@ -504,7 +504,7 @@ footer {
         height: 100vh;
         margin-top: 35vh;
         padding: 20px;
-        padding-top: 45px;
+        padding-top: 48px;
         margin: 0px;
     }
 
@@ -517,7 +517,7 @@ footer {
     }
     .projects {
         text-align: center;
-        margin-top: 10vh;
+        margin-top: 0vh;
         padding: 25px 20px;
     }
 
@@ -561,7 +561,7 @@ footer {
     .certificates {
         text-align: center;
         padding: 50px 20px;
-        height: 100vh;
+        height: 80vh;
         margin-top: 30vh;
     }
     .certificates h1{
