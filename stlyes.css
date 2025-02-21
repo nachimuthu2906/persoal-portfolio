@@ -476,7 +476,7 @@ footer {
         flex: 1;
         text-align: left;
         padding: 10px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     .home-content h1 {
@@ -492,6 +492,7 @@ footer {
         width: 90%;
         font-size: medium;
         padding-left: 35px;
+        margin-top: -70px;
     }
     .about p {
         max-width: 1000px;
@@ -504,7 +505,7 @@ footer {
         margin-top: 35vh;
         padding: 20px;
         padding-top: 45px;
-        margin: 40px;
+        margin: 0px;
     }
 
     .skills-container {
@@ -516,7 +517,7 @@ footer {
     }
     .projects {
         text-align: center;
-        margin-top: 30vh;
+        margin-top: 10vh;
         padding: 25px 20px;
     }
 
@@ -605,7 +606,7 @@ footer {
     .indicators {
         display: flex;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 30px;
     }
     .nav.prev {
         left: -10px;
@@ -621,8 +622,8 @@ footer {
         padding: 40px;
         font-size: 14px;
         color: rgb(0, 0, 0);
-        margin-top: 15px;
-        margin: -56px;
+        margin-top: 1px;
+        margin: -150px;
     }
     .social-iconsfooter a {
         text-decoration: none;
