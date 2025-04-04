@@ -701,7 +701,9 @@
         }
         .icon-box{
             margin-top: 15px;
-            margin-left: auto;
+            align-items: center;
+            justify-content: center;
+            margin-left: inherit;
             display: flex;
             gap: 10px;
         }
