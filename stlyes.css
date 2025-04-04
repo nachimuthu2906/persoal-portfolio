@@ -676,7 +676,7 @@
         }
         .icon-box{
             margin-top: 15px;
-            margin-left: 60px;
+            margin-left: 80px;
             display: flex;
             gap: 10px;
         }
@@ -694,7 +694,7 @@
         font-size: 30px;
     }
     .p1{
-        font-size: 15px;
+        font-size: 20px;
         margin-top: 25px;
         margin-left: -40px;
         margin-right: -40px;
