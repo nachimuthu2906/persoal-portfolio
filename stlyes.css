@@ -107,7 +107,7 @@
 
 .home .right .myphoto{
     position: absolute;
-    height: 360px;
+    height: 310px;
     width: 310px;
     /* right: 240px; */
 }
@@ -180,6 +180,7 @@
 }
 .h1-heading{
     font-size: 40px;
+    width: auto;
 }
 .about a{
     background-color: skyblue;
@@ -725,9 +726,9 @@
         }
         .icon-box1{
             margin-top: 15px;
-            /* margin-left: 60px; */
+            margin-left: 60px;
             align-items: center;
-            display: flex;
+            display: inline-flex;
             gap: 20px;
         }
         .icon-box{
